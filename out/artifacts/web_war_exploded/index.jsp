@@ -13,12 +13,14 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
+<head>
     <title>测试页面接口</title>
-  </head>
-  <body>
-  <a href="http://localhost:8080/download?filename=1.jpg">下载图片</a>
-  <br>
-  <a href="http://localhost:8080/cookieTest">cookieTest接口</a>
-  </body>
+</head>
+<body>
+<div><a href="http://localhost:8080/download?filename=1.jpg">下载图片</a>
+    <br>
+    <a href="http://localhost:8080/cookieTest">cookieTest接口</a>
+</div>
+
+</body>
 </html>
