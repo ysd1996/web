@@ -14,9 +14,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>测试页面接口</title>
   </head>
   <body>
-  $END$
+  <a href="http://localhost:8080/download?filename=1.jpg">下载图片</a>
+  <br>
+  <a href="http://localhost:8080/cookieTest">cookieTest接口</a>
   </body>
 </html>
