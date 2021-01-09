@@ -12,10 +12,12 @@ import java.io.IOException;
  * @Description: ${todo}
  * @date 2021/1/8 000823:00
  */
-@WebServlet(name = "LoginServlet")
+@WebServlet("/login")
 public class LoginServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
+        response.setContentType("text/html;charset=utf-8");
+        response.getWriter().write("欢迎登录！");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

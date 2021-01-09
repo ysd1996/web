@@ -17,9 +17,14 @@
     <title>测试页面接口</title>
 </head>
 <body>
-<div><a href="http://localhost:8080/download?filename=1.jpg">下载图片</a>
+<div>
+    <a href="http://localhost:8080/download?filename=1.jpg">下载图片</a>
     <br>
     <a href="http://localhost:8080/cookieTest">cookieTest接口</a>
+    <br>
+    <a href="http://localhost:8080/essionDemo1">Session测试页面</a>
+    <br>
+    <a href="http://localhost:8080/page/login.jsp">登录</a>
 </div>
 
 </body>

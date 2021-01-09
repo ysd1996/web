@@ -23,6 +23,8 @@
     <a href="http://localhost:8080/cookieTest">cookieTest接口</a>
     <br>
     <a href="http://localhost:8080/essionDemo1">Session测试页面</a>
+    <br>
+    <a href="http://localhost:8080/page/login.jsp">登录</a>
 </div>
 
 </body>

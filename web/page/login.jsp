@@ -11,7 +11,7 @@
     <title>登录页面</title>
 </head>
 <body>
-<form action="/login" method="post">
+<form action="http://localhost:8080/login" method="post">
     <table>
         <tr>
             <td>用户名：</td>
@@ -29,7 +29,7 @@
         </tr>
 
         <tr>
-            <td colspan="2"><img src="/login/checkCode"></td>
+            <td colspan="2"><img src="http://localhost:8080/checkCodeServlet"></td>
         </tr>
 
         <tr>
