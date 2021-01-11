@@ -9,6 +9,22 @@
 <html>
 <head>
     <title>登录页面</title>
+
+    <script>
+        <!--点击切换验证码-->
+        window.onload = function (){
+            document.getElementById("img").onclick = function (){
+                <!--添加了时间戳-->
+                this.src="http://localhost:8080/checkCodeServlet?time="+new Date().getTime();
+            }
+        }
+    </script>
+
+    <style>
+        div{
+            color: red;
+        }
+    </style>
 </head>
 <body>
 <form action="http://localhost:8080/login" method="post">
@@ -29,7 +45,7 @@
         </tr>
 
         <tr>
-            <td colspan="2"><img src="http://localhost:8080/checkCodeServlet"></td>
+            <td colspan="2"><img id="img" src="http://localhost:8080/checkCodeServlet"></td>
         </tr>
 
         <tr>
@@ -37,8 +53,9 @@
         </tr>
 
     </table>
-
-
 </form>
+
+<div><%=request.getAttribute("cc_error")%></div>
+<div><%=request.getAttribute("login_error")%></div>
 </body>
 </html>

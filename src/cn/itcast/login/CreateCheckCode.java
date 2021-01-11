@@ -45,6 +45,7 @@ public class CreateCheckCode {
         }
         session.removeAttribute(RANDOMCODEKEY);
         session.setAttribute(RANDOMCODEKEY, randomString);
+        System.out.println(randomString);
         g.dispose();
         try {
             //将内存中的图片通过流动形式输出到客户端
