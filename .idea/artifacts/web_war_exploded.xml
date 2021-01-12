@@ -7,6 +7,12 @@
         <element id="directory" name="classes">
           <element id="module-output" name="web" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: org.apache.taglibs:taglibs-standard-impl:1.2.5" />
+          <element id="library" level="project" name="lib (5)" />
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+        </element>
       </element>
     </root>
   </artifact>
